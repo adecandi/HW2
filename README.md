@@ -1,6 +1,6 @@
 # AI-Generated Audio Detection (Class Project)
 
-**Short Description:**
+**Description:**
 A machine learning pipeline to detect AI-generated music by analyzing high-frequency spectral artifacts. Developed as part of the **Computer Music** course for Music Engineering at **Politecnico di Milano**.
 
 ---
