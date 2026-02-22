@@ -1,7 +1,7 @@
 # AI-Generated Audio Detection (Class Project)
 
 **Description:**
-A machine learning pipeline to detect AI-generated music by analyzing high-frequency spectral artifacts. Developed as part of the **Computer Music** course for Music Engineering at **Politecnico di Milano**.
+A machine learning project to detect AI-generated music by analyzing high-frequency spectral artifacts. Completed as part of the **Computer Music** course for Music Engineering at **Politecnico di Milano**.
 
 ---
 
@@ -10,10 +10,10 @@ This project implements a binary classifier to distinguish between **Real** and 
 
 ## Key Features
 
-*   **Feature Extraction:** Implemented a `fakeprint` algorithm that isolates high-frequency spectral peaks by subtracting the signal's lower envelope.
+*   **Feature Extraction:** Implemented a `fakeprint` function that isolates high-frequency spectral peaks by subtracting the signal's lower envelope.
 *   **Data Visualization:** Analyzed STFT spectrograms to identify visual differences between real and synthetic audio.
 *   **Machine Learning:** Trained a simple Logistic Regression classifier with class balancing to handle dataset skew.
-*   **Metadata Analysis:** Used `mutagen` to extract hidden information from correctly classified real tracks.
+*   **Metadata Analysis:** Used `mutagen` to extract metadata from correctly classified real tracks.
 
 ## Tech/Libraries Used
 *   **Python** (NumPy, Pandas)
